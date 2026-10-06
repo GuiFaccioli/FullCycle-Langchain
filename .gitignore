@@ -1,0 +1,10 @@
+# Local secrets: keep credentials out of Git.
+.env
+.env.*
+!.env.example
+
+# Local Python environments and generated files.
+venv/
+.venv/
+__pycache__/
+*.py[cod]
